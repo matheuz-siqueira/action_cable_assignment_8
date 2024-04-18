@@ -30,4 +30,32 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  language: 'English'
+  welcome: 'Welcome'
+
+  layouts:
+    application: 
+      login: 'Log in'
+      logout: 'Log out'
+
+  site:
+    index:
+      app: 'Chat Application'
+
+  devise:
+    registrations:
+      new:
+        sign_up_title: 'Sign Up'
+        signup: 'Cadastrar'
+    sessions:
+      new: 
+        sign_in_title: 'Log In'
+        login: 'Log in'
+    passwords: 
+      new:
+        forgot_password_title: 'Forgot your password?' 
+        reset_password: 'Redefine password'
+    shared:
+      links:
+        forgot_password: 'Forgot Password?'
+        signup: 'Sign Up'

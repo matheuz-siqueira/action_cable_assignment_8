@@ -1,5 +1,5 @@
 <div class="mx-auto max-w-xs">
-    <h1 class="font-hairline mb-6 text-center">Sign Up</h1>
+    <h1 class="font-hairline mb-6 text-center"> <%= t('.sign_up_title') %></h1>
 
     <%= form_for(resource,
                  as: resource_name,
@@ -31,7 +31,7 @@
         </div>
 
         <div class="mb-4">
-            <%= f.label :password_confirmation, class: "block font-bold mb-2 text-gray-700 text-sm" %>
+            <%= f.label t('.password_confirmation'), class: "block font-bold mb-2 text-gray-700 text-sm" %>
             <%= f.password_field :password_confirmation,
                                  autocomplete: "new-password",
                                  class: "appearance-none border leading-tight focus:outline-none px-3 py-2 rounded shadow focus:shadow-outline text-gray-700 w-full"
@@ -39,7 +39,7 @@
         </div>
 
         <div class="mb-4">
-            <%= f.submit "Sign Up",
+            <%= f.submit t('.signup'),
                          class: "button bg-blue-500 hover:bg-blue-700 font-bold text-white focus:outline-none py-2 px-4 rounded focus:shadow-outline w-full"
             %>
         </div>

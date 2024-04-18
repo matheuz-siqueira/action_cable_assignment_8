@@ -1,0 +1,41 @@
+pt-BR:
+  language: 'Portuguese (Brazil)'
+  welcome: 'Bem vindo'
+
+  helpers:
+    label:
+      user:
+        email: "Endereço de email"
+        password: "Senha"
+      submit:
+        create: "Cadastrado"
+
+  layouts:
+    application:
+      login: 'Entrar'
+      logout: 'Sair'
+      save: 'Salvar'
+
+  site:
+    index:
+      app: 'Aplicativo de chat'
+
+  devise:
+    registrations:
+      new:
+        sign_up_title: 'Registrar-se'
+        password_confirmation: 'Confirmação da senha'
+        signup: 'Cadastrar'
+        characters_minimum: 'caracters mínimo'
+    sessions:
+      new: 
+        sign_in_title: 'Acessar'
+        login: 'Entrar'
+    passwords: 
+      new: 
+        forgot_password_title: 'Esqueceu sua senha?' 
+        reset_password: 'Redefinir senha'
+    shared:
+      links:
+        forgot_password: 'Esqueceu a senha?'
+        signup: 'Cadastrar'

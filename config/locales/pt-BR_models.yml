@@ -1,0 +1,10 @@
+pt-BR:
+  activerecord:
+    models:
+      message:
+        one: "Mensagem"
+        other: "Mensagens" 
+    attributes:
+      message:
+        id: "Código"
+        body: "Conteúdo da mensagem"
